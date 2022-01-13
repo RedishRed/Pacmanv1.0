@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	box-sizing: border-box;
+	background-color: #000;
+}
+
+div.row div{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-bottom: -4px;
+}
+
+div.brick{
+	background-image: url("./images/brick.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+div.coin{
+	background-image: url("./images/tile103.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div#pacman{
+	background-image: url("./images/pacman-left1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+		top: 0;
+		left: 0;
+}
+div.empty{
+}
+div.score-title{
+	position: absolute;
+	color: #FFF;
+	top: 2.5%;
+	left: 53%;
+	font-weight: bold;
+}
+div#score{
+	color: #FFF;
+	border: 1px solid #FFF;
+	display: inline-block;
+	padding: 1rem;
+	position: absolute;
+	top: 6%;
+	left: 53%;
+}
+
+div#world{
+}
+
+div.cherry{
+	background-image: url("./images/tile012.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div#red-ghost{
+	background-image: url("./images/ghost-left1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div#blue-ghost{
+	background-image: url("./images/blue-ghost-left1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
